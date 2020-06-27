@@ -40,7 +40,7 @@ const contractABI =
 
 const contract = new web3.eth.Contract(abi, contractAddress)
 
-web3.eth.getTransactionCount(account2, (err, txCount) => {
+web3.eth.getTransactionCount(account1, (err, txCount) => {
     let txObject = {
         nonce: web3.utils.toHex(txCount),
         gasLimit: web3.utils.toHex(80000),
