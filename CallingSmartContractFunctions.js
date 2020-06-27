@@ -1,5 +1,5 @@
 const Web3 = require('web3')
-const web3 = new Web3('https://mainnet.infura.io/v3/b8c38daff38c440d90c3a6bedf368579')
+const web3 = new Web3('https://ropsten.infura.io/v3/b8c38daff38c440d90c3a6bedf368579')
 
 const account1 = '0x09E78Ec232C168ec6ef420675F813C4719A811f8' 
 
