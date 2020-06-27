@@ -1,6 +1,6 @@
 var Tx     = require('ethereumjs-tx')
 const Web3 = require('web3')
-const web3 = new Web3('https://mainnet.infura.io/v3/b8c38daff38c440d90c3a6bedf368579')
+const web3 = new Web3('https://ropsten.infura.io/v3/b8c38daff38c440d90c3a6bedf368579')
 
 const account1 = "0x98681A88da68453e279452CF749fFA7CFF3FD96F";
 const account2 = "0x87Bf2a054cc2ddb29ad86F2eD5a8eF4B59d753BA";
