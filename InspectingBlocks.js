@@ -1,5 +1,5 @@
 const Web3 = require('web3')
-const web3 = new Web3('https://mainnet.infura.io/v3/b8c38daff38c440d90c3a6bedf368579')
+const web3 = new Web3('https://ropsten.infura.io/v3/b8c38daff38c440d90c3a6bedf368579')
 
 // get latest block number
 web3.eth.getBlockNumber().then(console.log)
