@@ -1,5 +1,5 @@
 const Web3 = require('web3')
-const rpcURL = 'https://mainnet.infura.io/v3/b8c38daff38c440d90c3a6bedf368579' // Your RCP URL goes here
+const rpcURL = 'https://ropsten.infura.io/v3/b8c38daff38c440d90c3a6bedf368579' // Your RCP URL goes here
 const web3 = new Web3(rpcURL)
 
 //OMG Token ABI
